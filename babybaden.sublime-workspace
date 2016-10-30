@@ -56,14 +56,15 @@
 			"settings":
 			{
 				"buffer_size": 3862,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "#montagskurse{\n	background: rgba(70,70,70,1);\n}\n#freitagskurse{\n	background: #FFffff;\n}\n#montagskurse h4, #freitagskurse h4{\n	font-size: 2.9vw;\n	color: white;\n	letter-spacing: 4px;\n	padding: 30px;\n	color: rgba();\n}\n#freitagskurse h4{\n	color: rgb(50,50,50);\n}\n.kurs{\n	display: inline-block;\n	box-shadow: 0 0 1px 1px rgba(0,0,0,0.1);\n	width: 17%;\n	margin: 0 1% 0 1%;\n	background-color: white;\n	max-width: 200px;\n	overflow: hidden;\n\n	transition: ease 300ms;\n}\n.kurs h5{\n	\n}\n.kurs img{\n	width: 100%;\n}\n.kurs h5:before{\n	content:\" \";\n	display: block;\n	position: relative;\n	top: -24px;\n	left: 50%;\n	margin: 0;\n	margin-left: -60px;\n	margin-bottom: -20px;\n	height: 0;\n	width: 0;\n	border-style: solid;\n	border-width: 0 60px 40px 60px;\n	border-color: transparent transparent white transparent;\n\n	transition: ease 300ms;\n}\n.kurs p{\n	padding: 20px 5px;\n}\n.kurs:hover h5:before{\n	border-width: 00px 60px 40px 60px;\n	top: -39px;\n	margin-left: -60px;\n	border-color: transparent transparent #FF9933 transparent;\n}\n.kurs:hover{\n	background: #FF9933;\n}",
+			"contents": "#montagskurse{\n\tbackground: rgba(70,70,70,1);\n}\n#freitagskurse{\n\tbackground: #FFffff;\n}\n#montagskurse h4, #freitagskurse h4{\n\tfont-size: 2.9vw;\n\tcolor: white;\n\tletter-spacing: 4px;\n\tpadding: 30px;\n\tcolor: rgba();\n}\n#freitagskurse h4{\n\tcolor: rgb(50,50,50);\n}\n.kurs{\n\tdisplay: inline-block;\n\tbox-shadow: 0 0 1px 1px rgba(0,0,0,0.1);\n\twidth: 17%;\n\tmargin: 0 1% 0 1%;\n\tbackground-color: white;\n\tmax-width: 200px;\n\toverflow: hidden;\n\n\ttransition: ease 300ms;\n}\n.kurs h5{\n\t\n}\n.kurs img{\n\twidth: 100%;\n}\n.kurs h5:before{\n\tcontent:\" \";\n\tdisplay: block;\n\tposition: relative;\n\ttop: -24px;\n\tleft: 50%;\n\tmargin: 0;\n\tmargin-left: -60px;\n\tmargin-bottom: -20px;\n\theight: 0;\n\twidth: 0;\n\tborder-style: solid;\n\tborder-width: 0 60px 40px 60px;\n\tborder-color: transparent transparent white transparent;\n\n\ttransition: ease 300ms;\n}\n.kurs p{\n\tpadding: 20px 5px;\n}\n.kurs:hover h5:before{\n\tborder-width: 00px 60px 40px 60px;\n\ttop: -39px;\n\tmargin-left: -60px;\n\tborder-color: transparent transparent #FF9933 transparent;\n}\n.kurs:hover{\n\tbackground: #FF9933;\n}",
 			"file": "kurs.css",
-			"file_size": 1078,
-			"file_write_time": 131221152539461584,
+			"file_size": 1093,
+			"file_write_time": 131223300976443122,
 			"settings":
 			{
 				"buffer_size": 1034,
@@ -89,20 +90,12 @@
 			}
 		},
 		{
-			"contents": "{\n	\"cmd\": [\"make\"]\n}\n",
+			"contents": "{\n\t\"cmd\": [\"make\"]\n}\n",
 			"settings":
 			{
 				"buffer_size": 21,
 				"line_ending": "Windows",
 				"name": "untitled.sublime-build"
-			}
-		},
-		{
-			"file": "/C/Users/Michi/AppData/Roaming/Sublime Text 2/Packages/User/Chrome.sublime-build",
-			"settings":
-			{
-				"buffer_size": 125,
-				"line_ending": "Windows"
 			}
 		},
 		{
@@ -116,9 +109,14 @@
 		}
 	],
 	"build_system": "Packages/User/Chrome.sublime-build",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 392.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -142,7 +140,10 @@
 	},
 	"console":
 	{
-		"height": 125.0
+		"height": 125.0,
+		"history":
+		[
+		]
 	},
 	"distraction_free":
 	{
@@ -153,6 +154,10 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/C/Users/Michi/Desktop/test"
+	],
 	"file_history":
 	[
 		"/C/Users/Michi/AppData/Roaming/Sublime Text 2/Packages/User/Chrome.sublime-build",
@@ -204,6 +209,7 @@
 				{
 					"buffer": 0,
 					"file": "index.html",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 3862,
@@ -226,11 +232,13 @@
 						"translation.y": 826.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
 					"file": "kurs.css",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 1034,
@@ -254,11 +262,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
 					"file": "klassen.css",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 26,
@@ -281,11 +291,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
 					"file": "css2.css",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 2795,
@@ -308,10 +320,12 @@
 						"translation.y": 707.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 21,
@@ -334,37 +348,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "/C/Users/Michi/AppData/Roaming/Sublime Text 2/Packages/User/Chrome.sublime-build",
-					"settings":
-					{
-						"buffer_size": 125,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								111,
-								111
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
 					"file": "content.css",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 837,
@@ -388,6 +378,7 @@
 						"translation.y": 153.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -428,6 +419,12 @@
 	{
 		"height": 100.0
 	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/chrome2.sublime-build",
+	"project": "babybaden.sublime-project",
 	"replace":
 	{
 		"height": 62.0
@@ -436,6 +433,7 @@
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -444,15 +442,32 @@
 	"select_project":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
 		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
 	},
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 135.0,
-	"status_bar_visible": true
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
 }
