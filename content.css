@@ -1,0 +1,50 @@
+.content{
+	width: 100%;
+	min-height: 200px;
+	text-align: center;
+	background: white;
+	padding-bottom: 20px;
+}
+.content h3{
+	font-size: 2vw;
+	color: rgb(50,50,50);
+
+	font-family: 'Lato',sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	display: inline-block;
+}
+.content h4,.content h5{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato',sans-serif;
+	font-size: 1.9vw;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+.content p{
+	margin: 0;
+	padding: 20px;
+	letter-spacing: 2px;
+}
+#home{
+	background: white;
+}
+#home:before{
+	content:"";
+	display: block;
+	position: relative;
+	top: -40px;
+	left: 50%;
+	margin-left: -50px;
+	height: 0;
+	width: 0;
+	border-style: solid;
+	border-width: 0 50px 40px 50px;
+	border-color: transparent transparent white transparent;
+}
+#news{
+	background: #F79937;
+}

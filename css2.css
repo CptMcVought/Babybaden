@@ -1,0 +1,162 @@
+body, html{
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+
+	font-family: 'Lato',sans-serif;
+}
+#navi{
+	position: fixed;
+	z-index: 999;
+	height: 70px;
+	width: 100%;
+
+	background: white;
+	-webkit-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.3);
+	box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.3);
+}
+#navi ul{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	list-style: none;
+	float: right;
+}
+#logo{
+	clear: both;
+}
+#navi > ul > li {
+	float: left;
+	height: 100%;
+	line-height: 70px;
+
+	padding: 0 15px;
+	font-family: 'Lato',sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: 1.4vw;
+	letter-spacing: 4px;
+
+	transition: ease 300ms;
+}
+#navi a, #navi a:hover,#navi a:visited,#navi a:active{
+	text-decoration: none;
+	color: rgb(50,50,50);
+}
+#navi li:hover{
+	background: #F79937;
+	color: white;
+}
+#navi li:hover a{
+	color: white;
+}
+
+
+
+#titlepic {
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  }
+ #titlepic:before{
+  		content:' ';
+  		position: fixed;
+  		width: 100%;
+  		height: 100%;
+  		top: 0;
+  		left: 0;
+  		background: url('images/home.png') no-repeat center center;
+  		background-size: cover;
+  		will-change: transform;
+  		z-index: -1;
+}
+#overlayTitle{
+	position: absolute;
+	top: 20%;
+	left: 61%;
+	width: 35%;
+}
+#overlayTitle h3, #overlayTitle a, #overlayTitle a:hover,#overlayTitle a:visited,#overlayTitle a:active{
+	text-decoration: none;
+	color: rgb(50,50,50);
+	transition: ease 300ms;
+	font-family: 'Lato',sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 0.8vw;
+	letter-spacing: 2px;
+}
+#overlayTitle h3{
+	color: white;
+	font-weight: 500;
+	font-size: 2vw;
+}
+#overlayTitle .link{
+	padding: 18px;
+	float: left;
+	border: 2px white solid;
+	transition: ease 300ms;
+}
+#overlayTitle .white{
+	margin-right: 2%;
+	margin-bottom: 20px;
+	color: rgb(50,50,50);
+	background: white;
+	border-color: white;
+}
+#overlayTitle .white:hover{
+	background: #F79937;
+	border-color: #F79937;
+}
+#overlayTitle .white:hover a{
+	color: white;
+}
+#overlayTitle .black a{
+	color: white;
+}
+#overlayTitle .black{
+	background: transparent;
+}
+#overlayTitle .black:hover{
+	background: white;
+	border-color: white;
+}
+#overlayTitle .black:hover a{
+	color: rgb(50,50,50);
+}
+
+footer{
+	background: rgb(50,50,50);
+	color: rgb(100,100,100);
+	height: 150px;
+	width: 100%;
+	font-size: 2.0vw;
+	overflow: hidden;
+}
+footer div{
+	float: left;
+	line-height: 150px;
+}
+footer div:first-child{
+	width: 25%;
+	line-height: 28px;
+	font-size: 1.4vw;
+	padding-top: 35px;
+	padding-left: 35px;
+}
+footer div:nth-child(2){
+	width: 30%;
+}
+footer div:nth-child(3){
+	width: 30%;
+}
+footer div:nth-child(4){
+	width: 12%;
+}
